@@ -56,13 +56,15 @@ Please look at the basic demo [here](./examples/Basic/Basic.ino) to see how to u
 
 There are 3 main function
 
-`print`
-`println`
-`printf`
+- `print`
+- `println`
+- `printf`
+- `begin`
 
-`print` - transmits data to the RemoteSerial console without appending any newline character.
-`println` - same as above but adds a newline character at the end.
-`printf` - transmits formatted text to the RemoteSerial console.  You can control the formatting of variables like numbers, strings, and other data types, including specifying the number of decimal places, padding with zeros, and more.
+- `print` - transmits data to the RemoteSerial console without appending any newline character.
+- `println` - same as above but adds a newline character at the end.
+- `printf` - transmits formatted text to the RemoteSerial console.  You can control the formatting of variables like numbers, strings, and other data types, including specifying the number of decimal places, padding with zeros, and more.
+- `begin` - starts listening for web requests, you must supply a valid `AsyncWebServer` object and an optional path where clients can find the serial console
 
 You may also output [ANSI colour codes](https://talyian.github.io/ansicolors/) that will appear in the console as formatted text.
 
