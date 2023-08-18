@@ -35,9 +35,9 @@ Go to `Sketch > Include Library > Library Manager > Search` for `RemoteSerial > 
 
 ### Manual Install
 
-For Windows: Download the Repository and extract the .zip in `Documents > Arduino > Libraries > {place "RemoteSerial" folder Here}`
+For Windows: download the [repository](https://github.com/supercrab/RemoteSerial/archive/master.zip) and extract the .zip in `Documents > Arduino > Libraries > place "RemoteSerial" folder Here`
 
-For Linux: Download the Repository and extract the .zip in `Sketchbook > Libraries > {place "RemoteSerial" folder Here}`
+For Linux: download the [repository](https://github.com/supercrab/RemoteSerial/archive/master.zip) and extract the .zip in `Sketchbook > Libraries > place "RemoteSerial" folder Here`
 
 Insstall these libraries too:
 
