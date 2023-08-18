@@ -35,9 +35,9 @@ Go to `Sketch > Include Library > Library Manager > Search` for `RemoteSerial > 
 
 ### Manual Install
 
-For Windows: download the [repository](https://github.com/supercrab/RemoteSerial/archive/master.zip) and extract the .zip in `Documents > Arduino > Libraries > place "RemoteSerial" folder Here`
+For Windows: download the [repository](https://github.com/supercrab/RemoteSerial/archive/master.zip) and extract the .zip in `Documents > Arduino > Libraries > place RemoteSerial folder here`
 
-For Linux: download the [repository](https://github.com/supercrab/RemoteSerial/archive/master.zip) and extract the .zip in `Sketchbook > Libraries > place "RemoteSerial" folder Here`
+For Linux: download the [repository](https://github.com/supercrab/RemoteSerial/archive/master.zip) and extract the .zip in `Sketchbook > Libraries > place RemoteSerial folder here`
 
 Insstall these libraries too:
 
@@ -46,7 +46,7 @@ Insstall these libraries too:
 
 ### Manually using IDE
 
-Download the Repository, Go to `Sketch > Include Library > Add .zip Library > Select the Downloaded .zip file.`
+Download the Repository and go to `Sketch > Include Library > Add .zip Library > Select the Downloaded .zip file.`
 
 ## Documentation
 
@@ -56,7 +56,7 @@ Please look at the basic demo [here](./examples/Basic/Basic.ino) to see how to u
 
 There are 4 main functions
 
-- `print` - transmits data to the RemoteSerial console without appending any newline character.
+- `print` - transmits data to the `RemoteSerial` console without appending any newline character.
 - `println` - same as above but adds a newline character at the end.
 - `printf` - transmits formatted text to the RemoteSerial console.  You can control the formatting of variables like numbers, strings, and other data types, including specifying the number of decimal places, padding with zeros, and more.
 - `begin` - starts listening for web requests, you must supply a valid `AsyncWebServer` object and an optional path where clients can find the serial console
@@ -65,4 +65,4 @@ You may also output [ANSI colour codes](https://talyian.github.io/ansicolors/) t
 
 ## Remote Serial Console
 
-To access the console: Go to `<IP Address>/remoteserial` in your browser, where `<IP Address>` is the IP of your device.
+To open the console, navigate to `<IP Address>/remoteserial` in your web browser.  Replace `<IP Address>` with your device's actual IP.  If you prefer a different path, you can specify it when initializing `RemoteSerial` using the `RemoteSerial.begin()` function.
