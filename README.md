@@ -1,6 +1,6 @@
 # Remote Serial Library
 
-RemoteSerial is a web-based serial monitor designed for ESP8266 & ESP32 allowing easy debugging, monitoring and control.
+RemoteSerial is a web-based serial console designed for ESP8266 & ESP32 allowing easy debugging, monitoring and control.
 
 ## Preview
 
@@ -8,10 +8,10 @@ RemoteSerial is a web-based serial monitor designed for ESP8266 & ESP32 allowing
 
 ## Features
 
-Uses websockets
-Realtime logging and remote control
-Supports multiple clients
-Web monitor supports ANSI colours and formatting
+- Uses websockets
+- Realtime logging and remote control
+- Supports multiple clients
+- Web console supports ANSI colours and formatting
 
 ## Dependencies
 
@@ -31,13 +31,13 @@ For ESP32:
 
 ### Using The Arduino IDE
 
-Go to `Sketch > Include Library > Library Manager > Search` for `RemoteSerial` > `Install`
+Go to `Sketch > Include Library > Library Manager > Search` for `RemoteSerial > Install`
 
 ### Manual Install
 
-For Windows: Download the Repository and extract the .zip in` Documents>Arduino>Libraries>`{place "RemoteSerial" folder Here}
+For Windows: Download the Repository and extract the .zip in `Documents > Arduino > Libraries > {place "RemoteSerial" folder Here}`
 
-For Linux: Download the Repository and extract the .zip in `Sketchbook>Libraries>`{place "RemoteSerial" folder Here}
+For Linux: Download the Repository and extract the .zip in `Sketchbook > Libraries > {place "RemoteSerial" folder Here}`
 
 Insstall these libraries too:
 
@@ -46,7 +46,7 @@ Insstall these libraries too:
 
 ### Manually using IDE
 
-Download the Repository, Go to `Sketch>Include Library>Add .zip Library>` Select the Downloaded .zip file.
+Download the Repository, Go to `Sketch > Include Library > Add .zip Library > Select the Downloaded .zip file.`
 
 ## Documentation
 
@@ -66,8 +66,6 @@ There are 3 main function
 
 You may also output [ANSI colour codes](https://talyian.github.io/ansicolors/) that will appear in the console as formatted text.
 
-## RemoteSerial Console
+## Remote Serial Console
 
-To access the console: Go to `<IP Address>/remoteserial` in your browser, where <IP Address> is the IP of your device.
-
-
+To access the console: Go to `<IP Address>/remoteserial` in your browser, where `<IP Address>` is the IP of your device.
