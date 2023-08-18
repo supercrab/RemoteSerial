@@ -1,0 +1,7 @@
+RemoteSerial                KEYWORD1
+IncomingMessageHandler      KEYWORD2
+begin                       KEYWORD2
+print                       KEYWORD2
+printf                      KEYWORD2
+println                     KEYWORD2
+setIncomingMessageHandler   KEYWORD2

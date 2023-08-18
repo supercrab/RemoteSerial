@@ -1,0 +1,20 @@
+{
+  "name": "RemoteSerial",
+  "keywords": "RemoteSerial, serial, remote, monitor, ESP8266, ESP32, webpage, websocket, wireless, socket",
+  "description": "RemoteSerial is a web-based serial monitor designed for ESP8266 & ESP32 allowing easy debugging, monitoring and control",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supercrab/RemoteSerial.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Supercrab",
+      "maintainer": true
+    }
+  ],
+  "version": "0.0.1",
+  "frameworks": "arduino",
+  "platforms": "espressif"
+}
