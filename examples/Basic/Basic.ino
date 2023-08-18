@@ -20,8 +20,8 @@
 
 AsyncWebServer server(80);
 
-const char* ssid = "TheBrain"; // Your WiFi SSID
-const char* password = "kimberley"; // Your WiFi Password
+const char* ssid = "YOUR_SSID"; // Your WiFi SSID
+const char* password = "YOUR_PASSWORD"; // Your WiFi Password
 
 // Handle any incoming messages
 void messageReceived(const uint8_t *data, size_t len){
