@@ -1,4 +1,4 @@
-# Remote Serial Library
+# RemoteSerial Library
 
 RemoteSerial is a web-based serial console designed for ESP8266 & ESP32 allowing easy debugging, monitoring and control.
 
@@ -54,12 +54,7 @@ The RemoteSerial object works very much like Serial object used in the Arduino e
 
 Please look at the basic demo [here](./examples/Basic/Basic.ino) to see how to use it.
 
-There are 3 main function
-
-- `print`
-- `println`
-- `printf`
-- `begin`
+There are 4 main functions
 
 - `print` - transmits data to the RemoteSerial console without appending any newline character.
 - `println` - same as above but adds a newline character at the end.
