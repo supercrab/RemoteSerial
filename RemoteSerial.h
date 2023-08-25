@@ -19,6 +19,8 @@ class RemoteSerialClass : public Print {
 	public:
 		void begin(AsyncWebServer *server, const char* url = "/remoteserial");
 		void setIncomingMessageHandler(IncomingMessageHandler handler);
+		void cleanupClients();
+
 		size_t write(uint8_t);
 		size_t write(const uint8_t* buffer, size_t size);
 	private:

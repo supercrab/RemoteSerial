@@ -39,4 +39,8 @@ size_t RemoteSerialClass::write(const uint8_t* buffer, size_t size) {
 	return size;
 }
 
+void RemoteSerialClass::cleanupClients(){
+	_ws->cleanupClients();
+}
+
 RemoteSerialClass RemoteSerial;
