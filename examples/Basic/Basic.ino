@@ -23,6 +23,8 @@ AsyncWebServer server(80);
 const char* ssid = "YOUR_SSID"; // Your WiFi SSID
 const char* password = "YOUR_PASSWORD"; // Your WiFi Password
 
+bool connected = false;
+
 // Handle any incoming messages
 void messageReceived(const uint8_t *data, size_t len){
 	char str[len];
@@ -47,6 +49,8 @@ void setup() {
 		return;
 	}
 
+	connected = true;
+
 	Serial.println("WiFi connected");
 	Serial.print("http://");
 	Serial.print(WiFi.localIP().toString());
@@ -58,10 +62,17 @@ void setup() {
 }
 
 void loop() {
+
+	if (!connected){
+		return;
+	}
+
 	Serial.println("Outputing a message");
+
 	RemoteSerial.printf("%s IP address: %s\n", ANSI_WHITE, WiFi.localIP().toString().c_str());
 	RemoteSerial.printf("%s Millis: %lu\n", ANSI_MAGENTA, millis());
 	RemoteSerial.printf("%s Heap: %u\n", ANSI_CYAN, ESP.getFreeHeap());
+	RemoteSerial.cleanupClients();
 
 	delay(2000);
 }
