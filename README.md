@@ -1,3 +1,7 @@
+![Last Commit](https://img.shields.io/github/last-commit/supercrab/RemoteSerial.svg?style=for-the-badge)
+
+![Build Status](https://img.shields.io/github/actions/workflow/status/supercrab/RemoteSerial/ci.yml?branch=main&style=for-the-badge)
+
 # RemoteSerial Library
 
 RemoteSerial is a web-based serial console designed for ESP8266 & ESP32 allowing easy debugging, monitoring and control.
