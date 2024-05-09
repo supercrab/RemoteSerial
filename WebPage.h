@@ -3,7 +3,7 @@
 
 // Info about websockets
 // https://javascript.info/websocket
-const char WEBPAGE_HTML[] PROGMEM = R"rawliteral(
+const char HTML_REMOTE_SERIAL_PAGE[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html>
 <head>
